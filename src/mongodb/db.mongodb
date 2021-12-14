@@ -1,0 +1,3 @@
+use("moviesData");
+
+db.movies.find({ name: { $eq: "Homeland" } }, { name: 1 });
